@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AADDFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".core.view.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="Rick Guitar"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/select_guitar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#00000000"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:text="기타 조회"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/search_guitar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#00000000"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:text="기타 검색"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/insert_guitar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:padding="20dp"
+        android:text="기타 추가"
+        android:textSize="25sp" />
+
+</LinearLayout>
